@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    >
+
+    <!-- Premier EditText -->
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/stye1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer le premier texte"
+        android:inputType="text" />
+
+    <!-- Deuxième EditText -->
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer le deuxième texte"
+        android:inputType="text"
+        style="@style/stye11"
+        />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        style="@style/style2"
+        />
+
+    <!-- TextView pour afficher le résultat -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total 1200 dh"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        style="@style/style3"
+        />
+
+</LinearLayout>
